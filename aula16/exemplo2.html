@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let n1, n2, total
+        let idade
+
+        idade = parseInt(prompt("Informe a sua idade:" ))
+        if (idade <= 12){
+            alert("Você é uma criança!")
+        } else if (idade > 12 && idade <=18){
+            alert("Você é um adolescente!")
+        } else {
+            alert("Você é um adulto!")
+        }
+        
+        n1 = parseInt(prompt("Informe um número qualquer:"))
+        n2 = parseInt(prompt("Informe um outro qualquer:"))
+
+        if (n1 > n2){
+            alert("O maior é o primeiro número: " + n1)
+        } else {
+            alert("O maior é o segundo número: " + n2)
+        }
+    </script>
+</body>
+</html>

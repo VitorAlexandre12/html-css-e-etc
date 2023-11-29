@@ -1,0 +1,61 @@
+html, body {
+    margin: 0;
+    font: 16px "Arial", sans-serif;
+    color: #777;
+    height: 100vh;
+    border: 1px solid blue;
+}
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6 {
+    background-image: url(img/imagem1.jpg);
+    height: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0,7;
+}
+.caixa1{
+    background-image: url(img/imagem1.jpg);
+}
+.caixa2{
+    background-image: url(img/imagem2.jpg);
+}
+.caixa3{
+    background-image: url(img/imagem3.jpg);
+}
+.caixa4{
+    background-image: url(img/imagem4.jpg);
+}
+.caixa5{
+    background-image: url(img/imagem5.jpg);
+}
+.caixa6{
+    background-image: url(img/imagem6.jpg);
+}
+h3{
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+}
+.conteudo-titulo{
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+}
+.titulo{
+    color: #fff;
+    background-color: #000;
+    padding: 20px;
+    font-size: 1.5em;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px white;
+    font-size: 1.5em;
+}
+p{
+    margin-left: 0 30px 0 30px;
+}

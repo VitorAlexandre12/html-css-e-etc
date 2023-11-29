@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: arial;
+    background-image: url(img/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ul{
+    list-style: none;
+    position: absolute;
+    width: 100%;
+    top: 70px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 20px;
+}
+a:hover{
+    color: blue;
+}
+img{
+    width: 50px;
+}
+input[type="checkbox"]{
+    display: none;
+}
+nav{
+    background-color: rgba(0,0,0, .5);
+    width: 250px;
+    height: 100%;
+    position: absolute;
+    left: -250px;
+    transition: all .5s;
+}
+input[type="checkbox"]:checked ~ nav{
+transform: translateX(250px)
+}    
+label{
+    position: absolute;
+    z-index: 1;
+    padding: 15px;
+}
+li{
+    margin: 25px;
+}
